@@ -7,8 +7,10 @@ public class Hello{
 
 		Calculator c = new Calculator();
 
-		System.out.println("3 + 4 = " + c.add(3,4));
-		System.out.println("3 - 4 = " + c.substract(3,4));	
+		System.out.println("3 + 4 = " + Calculator.add(3,4));
+		System.out.println("3 - 4 = " + Calculator.substract(3,4));
+		System.out.println("3 * 4 = " + Calculator.multiply(3,4));
+		System.out.println("3 / 4 = " + Calculator.divide(3,4));	
 
 	}
 }
